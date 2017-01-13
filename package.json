@@ -1,7 +1,7 @@
 {
   "name": "slowpoke",
   "version": "0.0.1",
-  "description": "Hapijs bolierplate",
+  "description": "Hapijs boilerplate",
   "main": "slowpoke.js",
   "scripts": {
     "start": "nodemon slowpoke server",

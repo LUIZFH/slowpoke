@@ -1,4 +1,4 @@
-# Slowpoke - HapiJS bolierplate
+# Slowpoke - HapiJS boilerplate
 
 ```shell
 git clone https://github.com/tiagojlara/slowpoke.git
