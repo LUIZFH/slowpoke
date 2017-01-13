@@ -1,0 +1,44 @@
+{
+  "name": "slowpoke",
+  "version": "0.0.1",
+  "description": "Hapijs bolierplate",
+  "main": "slowpoke.js",
+  "scripts": {
+    "start": "nodemon slowpoke server",
+    "seed": "node slowpoke seeder",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tiagojlara/slowpoke"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://github.com/tiagojlara/slowpoke",
+  "_moduleAliases": {
+    "@modules": "src/modules",
+    "@common": "src/common",
+    "@core": "core",
+    "@src": "src"
+  },
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "commander": "^2.9.0",
+    "dotenv": "^2.0.0",
+    "good": "^7.1.0",
+    "good-console": "^6.2.0",
+    "hapi": "^16.0.2",
+    "hapi-plugin-co": "^0.9.4",
+    "hapi-swagger": "^7.5.0",
+    "inert": "^4.0.4",
+    "joi": "^10.0.6",
+    "lodash": "^4.17.2",
+    "module-alias": "^2.0.0",
+    "mongoose": "^4.7.4",
+    "vision": "^4.1.1"
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0",
+    "nodemon": "^1.11.0"
+  }
+}
