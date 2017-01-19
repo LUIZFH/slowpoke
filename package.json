@@ -4,7 +4,8 @@
   "description": "Hapijs boilerplate",
   "main": "slowpoke.js",
   "scripts": {
-    "start": "nodemon slowpoke server",
+    "start": "node slowpoke server",
+    "dev": "nodemon slowpoke server",
     "seed": "node slowpoke seeder",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
