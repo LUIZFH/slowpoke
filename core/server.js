@@ -30,8 +30,8 @@ module.exports = () => {
 	})
 
 	server.connection({ 
-		host: 'localhost', 
-		port: 5500,
+		host: '0.0.0.0', 
+		port: process.env.PORT || 5000,
 		routes: { cors: true }
 	})
 

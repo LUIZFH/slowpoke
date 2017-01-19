@@ -8,6 +8,6 @@ npm run seed
 npm start
 ```
 
-Open http://localhost:5500/pokemons
+Open http://localhost:5000/pokemons
 
-Documentation: http://localhost:5500/documentation
+Documentation: http://localhost:5000/documentation
